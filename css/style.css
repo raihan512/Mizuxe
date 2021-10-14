@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700,800&display=swap');
+
+* {
+    margin: 0;
+    border: 0;
+    outline: 0;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 75px;
+}
+
+ol,
+ul {
+    list-style-type: none;
+}
+
+a:hover,
+a {
+    text-decoration: none;
+}
+
+img {
+    vertical-align: middle;
+}
+
+h1 {
+    font-size: 36px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: #fff;
+    text-transform: capitalize;
+}
+
+h2 {
+    font-size: 30px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: #3292a6;
+    text-transform: capitalize;
+}
+
+h3 {
+    font-size: 26px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: #000;
+    text-transform: capitalize;
+}
+
+h4 {
+    font-size: 24px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    color: #3292a6;
+    text-transform: capitalize;
+}
+
+h5 {
+    font-size: 22px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    color: #212529;
+    text-transform: capitalize;
+}
+
+a {
+    font-size: 22px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    color: #000 !important;
+    text-transform: capitalize;
+    transition: 0.4s;
+}
+
+a:hover {
+
+    color: #3292a6 !important;
+}
+
+p {
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: #000;
+    line-height: 1.6;
+}
+
+/*Menu Part start*/
+.menu_bar {
+    background: #fff;
+    opacity: 0.9;
+    box-shadow: 0px 0px 5px #3292a6;
+}
+
+.menu_bar img {
+    height: 50px;
+    width: 50px;
+}
+
+/*Menu Part end*/
+/*Banner Part start*/
+#banner_part {
+    background: url('../images/mountains.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+.banner_overlay {
+    background: rgba(50, 146, 156, 0.7);
+    padding: 100px 0px 100px;
+}
+
+.banner_content {
+    margin-top: 120px;
+}
+
+.banner_content p,
+.banner_content a {
+    color: #fff !important;
+}
+
+.banner_content a {
+    border-radius: 0;
+}
+
+.banner_content a:hover {
+    color: #000 !important;
+}
+
+/*subscribe Part start*/
+#subscribe {
+    padding: 50px 0px;
+    background: #252525;
+}
+
+#subscribe .form-control {
+    border-radius: 0;
+}
+
+#subscribe .btn {
+    background: #3292a6;
+    border-radius: 0;
+    color: #fff !important;
+    transition: 0.4s;
+}
+
+#subscribe .btn:hover {
+    opacity: 0.8;
+}
+
+
+
+/*subscribe Part end*/
+/*boxes Part start*/
+#boxes {
+    padding: 50px 0px;
+}
+
+#boxes .boxes_colourless {
+    padding: 30px;
+    border: 1px solid #3292a6;
+    text-align: center;
+}
+
+#boxes .boxes_coloured {
+    padding: 30px;
+    background: #3292a6;
+    text-align: center;
+}
+
+#boxes .boxes_coloured h4,
+#boxes .boxes_coloured p {
+    color: #fff;
+}
+
+/*boxes Part end*/
+/*about Part start*/
+#about {}
+
+/*about Part end*/
+/*authority Part start*/
+.authority_member {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    border: 1px solid #000;
+    margin: 50px 0px 0px;
+}
+
+.authority_member img {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    transform: translateX(-50%);
+    left: 50%;
+    margin-top: -50px;
+}
+
+.authority_content {
+    position: absolute;
+    text-align: center;
+}
+
+.authority_content h4 {
+    padding-top: 100px;
+}
+
+.authority_content ul {
+    margin-top: 30px;
+}
+
+.authority_content ul li {
+    float: left;
+}
+
+.authority_content ul li a {
+    display: block;
+    margin: 50%;
+}
+
+.authority_content ul li a i {
+    font-size: 25px;
+    color: #3292a6;
+}
+
+/*authority Part end*/
+
+.input-group-text {
+    border-radius: 0;
+}
+
+.form-control-lg {
+    border-radius: 0;
+}
+
